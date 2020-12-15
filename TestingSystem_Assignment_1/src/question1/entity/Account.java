@@ -12,6 +12,16 @@ public class Account {
 	private int positionID;
 	private Date createDate;
 
+	public Account(int accountID, String email, String userName, String fullName, int departmentID, int positionID, Date createDate) {
+		this.accountID = accountID;
+		this.email = email;
+		this.userName = userName;
+		this.fullName = fullName;
+		this.departmentID = departmentID;
+		this.positionID = positionID;
+		this.createDate = createDate;
+	}
+
 	public int getAccountID() {
 		return accountID;
 	}
